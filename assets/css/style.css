@@ -1,0 +1,191 @@
+/* Navbar */
+.topnav {
+    padding: 26px;
+    background: #ffffff;
+    border-bottom: 2px solid #cccccc;
+}
+
+.navContainer {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    clear: both;
+}
+
+.active {
+    background: #4aaaa5;
+    padding: 26px 83px 27px 83px;
+    font-size: 30px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    float: right;
+    margin-top: 10px;
+}
+
+nav a:first-child {
+    border-left: 0 none;
+}
+
+.navlink {
+    margin: -2px;
+    border-left: 1px solid #cccccc;
+    padding: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: #999999;
+}
+
+/* Footer */
+
+footer {
+    height: 65px;
+    background-color: #666666;
+    border-top: 8px #4aaaa5 solid;
+    clear: both;
+    font-size: 12px;
+
+}
+
+.foot {
+    text-align: center;
+    color: #cccccc;
+    margin-top: auto;
+}
+
+/* Main Body About me Page */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 18px;
+    color: #777777;
+    background-color: lightgray;
+}
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    clear: both;
+}
+
+.main {
+    float: left;
+    width: 100%;
+    max-width: 960px;
+    padding: 30px;
+    margin: 30px 0 130px;
+    background: #ffffff;
+    border: 1px solid #dddddd;
+    line-height: 40px;
+}
+
+h1 {
+    border-bottom: 3px solid #dddddd;
+    line-height: 49px;
+    padding-bottom: 20px;
+}
+
+img {
+    float: left;
+    margin: 0px 10px 10px 0px;
+}
+
+p {
+    margin-bottom: 35px;
+}
+
+/* Contact Form */
+
+.contactcontainer {
+    width: 100%;
+    max-width: 576px;
+    background: white;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    clear: both;
+}
+
+#contact-form ul {
+    margin-bottom: 20px;
+}
+
+#contact-form li {
+    margin-bottom: 10px;
+}
+
+/* Editting Label input text and email adding textarea property */
+label,
+input[type=text],
+input[type=email],
+textarea {
+  display: block;
+  width: 100%;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+    height: 35px;
+    padding: 0 10px;
+    font-size: 12px;
+    border: 1px solid #dddddd;
+}
+
+textarea {
+    height: 150px;
+}
+
+.btn {
+    padding: 10px 30px;
+    font-size: 18px;
+    color: #ffffff;
+    cursor: pointer;
+    background: #4aaaa5;
+    border: 0 none;
+  }
+
+  /* Portfolio */
+
+  .portcontainer {
+    float: left;
+    width: 100%;
+    max-width: 762px;
+    padding: 30px;
+    margin: 40px 0 40px;
+    background: #ffffff;
+    border: 1px solid #dddddd;
+    position: relative;
+    left: 250px;
+  }
+
+  .project {
+    position: relative;
+    float: left;
+    width: 274px;
+    margin: 20px 0 25px;
+    overflow: auto;
+  }
+
+  .project:nth-child(even) {
+    margin-right: 40px;
+  }
+
+  .work img {
+    width: 100%;
+    border: 0 none;
+    opacity: 0.8;
+  }
